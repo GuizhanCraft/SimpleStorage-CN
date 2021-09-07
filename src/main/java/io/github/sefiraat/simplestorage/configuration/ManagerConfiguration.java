@@ -74,7 +74,7 @@ public class ManagerConfiguration {
         try {
             chestConfig.save(chestConfigFile);
         } catch (IOException e) {
-            plugin.getLogger().warning("Unable to save " + chestConfigFile.getName());
+            plugin.getLogger().warning("无法保存 " + chestConfigFile.getName());
         }
     }
 

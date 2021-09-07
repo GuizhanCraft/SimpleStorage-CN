@@ -18,7 +18,7 @@ public class SimpleStorage extends AbstractAddon {
     private static SimpleStorage instance;
 
     public SimpleStorage() {
-        super("Sefiraat", "SimpleStorage", "master", "auto-update");
+        super("ybw0014", "SimpleStorage", "master", "auto-update");
     }
 
     public static SimpleStorage inst() {
@@ -53,7 +53,8 @@ public class SimpleStorage extends AbstractAddon {
         instance = this;
 
         getLogger().info("########################################");
-        getLogger().info("  SimpleStorage - Created by Sefiraat   ");
+        getLogger().info("          SimpleStorage 简易存储         ");
+        getLogger().info("       作者: Sefiraat 汉化: ybw0014      ");
         getLogger().info("########################################");
 
         managerConfiguration = new ManagerConfiguration(this);

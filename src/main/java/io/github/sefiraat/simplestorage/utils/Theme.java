@@ -8,7 +8,7 @@ public final class Theme {
         throw new IllegalStateException("Utility class");
     }
 
-    public static final String PREFIX = "" + ChatColor.GRAY + "[Simple Storage] ";
+    public static final String PREFIX = "" + ChatColor.GRAY + "[简易存储] ";
     public static final String SUFFIX = "" + ChatColor.GRAY + "";
     public static final ChatColor WARNING = ChatColor.YELLOW;
     public static final ChatColor ERROR = ChatColor.RED;

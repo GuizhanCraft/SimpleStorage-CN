@@ -1,14 +1,14 @@
-![](https://github.com/Sefiraat/Simple-Storage/blob/master/Images/logo/logo_large.png?raw=true)
+![](https://cdn.jsdelivr.net/gh/Sefiraat/Simple-Storage@master/Images/logo/logo_large.png)
 
-Simple Storage is a Slimefun4 addon that adds new mass storage blocks;
+SimpleStorage (简易存储)是一个Slimefun附属插件，添加了大容量的存储箱。
 
-|Image |Block |Description |
+| 图片 | 方块 | 描述 |
 |:---|:---|:---|
-|![](https://github.com/Sefiraat/Simple-Storage/blob/master/Images/wiki/items/chest_iron.png?raw=true)|**Iron Chest** | A 2 page chest with 45 slots per page |
-|![](https://github.com/Sefiraat/Simple-Storage/blob/master/Images/wiki/items/chest_gold.png?raw=true)|**Gold Chest** | A 4 page chest with 45 slots per page |
-|![](https://github.com/Sefiraat/Simple-Storage/blob/master/Images/wiki/items/chest_diamond.png?raw=true)|**Diamond Chest** | A 6 page chest with 45 slots per page |
-|![](https://github.com/Sefiraat/Simple-Storage/blob/master/Images/wiki/items/inventory_cell_basic.png?raw=true)|**Inventory Cell** | A 6 page inventory with 45 slots per page can be accessed by a network chest |
-|![](https://github.com/Sefiraat/Simple-Storage/blob/master/Images/wiki/items/chest_master.png?raw=true)|**Network Chest** | This block can access all Inventory Cells within a 5 block range (configurable) in a single inventory |
+|![](https://cdn.jsdelivr.net/gh/Sefiraat/Simple-Storage@master/Images/wiki/items/chest_iron.png)|**Iron Chest** | A 2 page chest with 45 slots per page |
+|![](https://cdn.jsdelivr.net/gh/Sefiraat/Simple-Storage@master/Images/wiki/items/chest_gold.png)|**Gold Chest** | A 4 page chest with 45 slots per page |
+|![](https://cdn.jsdelivr.net/gh/Sefiraat/Simple-Storage@master/Images/wiki/items/chest_diamond.png)|**Diamond Chest** | A 6 page chest with 45 slots per page |
+|![](https://cdn.jsdelivr.net/gh/Sefiraat/Simple-Storage@master/Images/wiki/items/inventory_cell_basic.png)|**Inventory Cell** | A 6 page inventory with 45 slots per page can be accessed by a network chest |
+|![](https://cdn.jsdelivr.net/gh/Sefiraat/Simple-Storage@master/Images/wiki/items/chest_master.png)|**Network Chest** | This block can access all Inventory Cells within a 5 block range (configurable) in a single inventory |
 
 Want to discuss, suggest or learn more about Simple Storage? Join the Addon Community Discord for Slimefun where all of my plugins have channels.
 <p align="center">

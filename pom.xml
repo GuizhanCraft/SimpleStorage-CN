@@ -5,15 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.sefiraat.simplestorage</groupId>
     <artifactId>SimpleStorage</artifactId>
-    <version>MODIFIED</version>
+    <version>DEV-7-zh-CN</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.projectKey>Sefiraat_Simple-Storage</sonar.projectKey>
-        <sonar.organization>sefiraat</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <repositories>
@@ -32,7 +29,7 @@
     </repositories>
 
     <build>
-        <finalName>${project.name} v${project.version}</finalName>
+        <finalName>${project.name}-${project.version}</finalName>
         <plugins>
             <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -102,9 +99,9 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>io.github.mooy1</groupId>
+            <groupId>com.github.ybw0014</groupId>
             <artifactId>InfinityLib</artifactId>
-            <version>b4e69ad</version>
+            <version>1.2.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
