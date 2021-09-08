@@ -28,34 +28,34 @@ public final class GuiItems {
     public static CustomItemStack menuInfo() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_NO1)),
-                Theme.GUI_HEAD + "Info",
+                Theme.GUI_HEAD + "信息",
                 "",
-                "Page number : 1"
+                "第 1 页"
         );
     }
 
     public static CustomItemStack menuChestPageBack() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_BACK)),
-                Theme.GUI_HEAD + "Back",
+                Theme.GUI_HEAD + "上一页",
                 "",
-                Theme.CLICK_INFO + "Click to navigate back a page."
+                Theme.CLICK_INFO + "点击访问上一页"
         );
     }
 
     public static CustomItemStack menuChestPageForward() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_FORWARD)),
-                Theme.GUI_HEAD + "Forward",
+                Theme.GUI_HEAD + "下一页",
                 "",
-                Theme.CLICK_INFO + "Click to navigate forward a page."
+                Theme.CLICK_INFO + "点击访问下一页"
         );
     }
 
     public static CustomItemStack menuChestDummy() {
         return new CustomItemStack(
                 Material.LIGHT_GRAY_STAINED_GLASS_PANE,
-                Theme.PASSIVE + "No item here"
+                Theme.PASSIVE + "没有物品"
         );
     }
 
@@ -69,24 +69,24 @@ public final class GuiItems {
     public static CustomItemStack menuClose() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_CLOSE)),
-                Theme.GUI_HEAD + "Close"
+                Theme.GUI_HEAD + "关闭"
         );
     }
 
     public static CustomItemStack menuRenameCell() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_RENAME_CELL)),
-                Theme.GUI_HEAD + "Rename Cell"
+                Theme.GUI_HEAD + "重命名存储单元"
         );
     }
 
     public static CustomItemStack menuSetMaterial() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_SET_ICON)),
-                Theme.GUI_HEAD + "Set Icon",
+                Theme.GUI_HEAD + "设置图标",
                 "",
-                Theme.ITEM_TYPEDESC + "Click this with an item on your",
-                Theme.ITEM_TYPEDESC + "mouse to set the icon for this inventory"
+                Theme.ITEM_TYPEDESC + "在界面中拿起一个物品并点击这里",
+                Theme.ITEM_TYPEDESC + "以设置该存储空间的图标"
         );
     }
 
@@ -96,7 +96,7 @@ public final class GuiItems {
         String name;
         String storedName = ne.getDisplayName();
         if (storedName == null) {
-            name = ChatColor.WHITE + "Scanned Inventory";
+            name = ChatColor.WHITE + "已扫描的存储空间";
         } else {
             name = storedName;
         }
@@ -118,37 +118,37 @@ public final class GuiItems {
                 i,
                 Theme.GUI_HEAD + name,
                 "",
-                Theme.ITEM_TYPEDESC + "Inventory Type: " + NetworkElement.networkElementTypeName(NetworkElement.NetworkElementType.INVENTORY_CELL),
+                Theme.ITEM_TYPEDESC + "存储空间类型: " + NetworkElement.networkElementTypeName(NetworkElement.NetworkElementType.INVENTORY_CELL),
                 "",
-                Theme.CLICK_INFO + "Left click: " + ChatColor.WHITE + "Open inventory",
-                Theme.CLICK_INFO + "Right click: " + ChatColor.WHITE + "Highlight inventory"
+                Theme.CLICK_INFO + "左键点击" + ChatColor.WHITE + "打开存储空间",
+                Theme.CLICK_INFO + "右键点击" + ChatColor.WHITE + "高亮存储空间"
         );
     }
 
     public static CustomItemStack menuCellBarrel(ItemStack i, String name, NetworkElement networkElement) {
-        String barrelAmount = Theme.ITEM_TYPEDESC + "Content: " + ChatColor.WHITE + networkElement.getBarrelAmount();
+        String barrelAmount = Theme.ITEM_TYPEDESC + "容量: " + ChatColor.WHITE + networkElement.getBarrelAmount();
         return new CustomItemStack(
                 i,
                 Theme.GUI_HEAD + name,
                 "",
-                Theme.ITEM_TYPEDESC + "Inventory Type: " + NetworkElement.networkElementTypeName(networkElement.getType()),
+                Theme.ITEM_TYPEDESC + "存储空间类型: " + NetworkElement.networkElementTypeName(networkElement.getType()),
                 "",
                 barrelAmount,
                 "",
-                Theme.CLICK_INFO + "Left click: " + ChatColor.WHITE + "Open inventory",
-                Theme.CLICK_INFO + "Right click: " + ChatColor.WHITE + "Highlight inventory"
+                Theme.CLICK_INFO + "左键点击" + ChatColor.WHITE + "打开存储空间",
+                Theme.CLICK_INFO + "右键点击" + ChatColor.WHITE + "高亮存储空间"
         );
     }
 
     public static CustomItemStack menuCellError() {
         return new CustomItemStack(
                 Material.BARRIER,
-                Theme.GUI_HEAD + "Scanned Inventory (Error)",
+                Theme.GUI_HEAD + "已扫描的存储空间 (错误)",
                 "",
-                Theme.ITEM_TYPEDESC + "Inventory Type: Unknown/Error",
+                Theme.ITEM_TYPEDESC + "存储空间类型: 未知",
                 "",
-                Theme.CLICK_INFO + "Left click: " + ChatColor.WHITE + "Open inventory",
-                Theme.CLICK_INFO + "Right click: " + ChatColor.WHITE + "Highlight inventory"
+                Theme.CLICK_INFO + "左键点击" + ChatColor.WHITE + "打开存储空间",
+                Theme.CLICK_INFO + "右键点击" + ChatColor.WHITE + "高亮存储空间"
         );
     }
 

@@ -33,9 +33,9 @@ public abstract class AbstractCache {
             }
             blockMenu.replaceExistingItem(0, new CustomItemStack(
                     PlayerHead.getItemStack(PlayerSkin.fromBase64(guiNumbers.get(skullID))),
-                    Theme.GUI_HEAD + "Info",
+                    Theme.GUI_HEAD + "信息",
                     "",
-                    Theme.CLICK_INFO + "Page number : " + page
+                    Theme.CLICK_INFO + "第 " + page + " 页"
             ));
             return false;
         });
@@ -52,7 +52,7 @@ public abstract class AbstractCache {
                     PlayerHead.getItemStack(PlayerSkin.fromBase64(guiNumbers.get(skullID))),
                     Theme.GUI_HEAD + "Info",
                     "",
-                    Theme.CLICK_INFO + "Page number : " + page
+                    Theme.CLICK_INFO + "第 " + page + " 页"
             ));
             return false;
         });

@@ -213,10 +213,10 @@ public final class NetworkInventoryCache extends AbstractCache {
     private boolean guiRename(Block block, @Nonnull Player player) {
         // Prepare for item name in chat, flag rename item for removal
         player.closeInventory();
-        player.sendMessage(Theme.WARNING + "Enter a new name for this inventory cell, supports colour codes");
+        player.sendMessage(Theme.WARNING + "请输入存储单元的名称，支持颜色代码");
         ChatUtils.awaitInput(player, message -> {
             BlockStorage.addBlockInfo(block, "cellname", message);
-            player.sendMessage(Theme.SUCCESS + "Cell name updated");
+            player.sendMessage(Theme.SUCCESS + "已更新存储单元的名称");
         });
         return false;
     }
@@ -225,9 +225,9 @@ public final class NetworkInventoryCache extends AbstractCache {
         Material m = player.getItemOnCursor().getType();
         if (m != Material.AIR) {
             BlockStorage.addBlockInfo(block, "cellmaterial", m.toString());
-            player.sendMessage(Theme.SUCCESS + "Icon material set");
+            player.sendMessage(Theme.SUCCESS + "已设置图标");
         } else {
-            player.sendMessage(Theme.ERROR + "You must have an item on your cursor");
+            player.sendMessage(Theme.ERROR + "你必须拿起一个物品再设置图标");
         }
         return false;
     }

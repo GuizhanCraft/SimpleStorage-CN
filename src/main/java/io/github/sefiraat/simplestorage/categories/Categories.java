@@ -19,31 +19,31 @@ public final class Categories {
     public static CustomItemStack catSimpleStorageMain() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_CORE)),
-                Theme.MAIN + "Simple Storage"
+                Theme.MAIN + "简易存储"
         );
     }
     public static CustomItemStack catSimpleStorageMaterials() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_MATERIALS)),
-                Theme.MAIN + "Simple Storage Materials"
+                Theme.MAIN + "简易存储 - 材料"
         );
     }
     public static CustomItemStack catSimpleStorageItems() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_ITEMS)),
-                Theme.MAIN + "Simple Storage Items"
+                Theme.MAIN + "简易存储 - 物品"
         );
     }
     public static CustomItemStack catSimpleStorageMachines() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_MACHINES)),
-                Theme.MAIN + "Simple Storage Machines"
+                Theme.MAIN + "简易存储 - 机器"
         );
     }
     public static CustomItemStack catSimpleStorageChests() {
         return new CustomItemStack(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_CHESTS)),
-                Theme.MAIN + "Simple Storage Chests/Cells"
+                Theme.MAIN + "简易存储 - 容器"
         );
     }
 
