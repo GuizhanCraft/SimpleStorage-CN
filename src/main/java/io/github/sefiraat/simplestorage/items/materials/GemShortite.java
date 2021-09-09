@@ -16,7 +16,7 @@ public final class GemShortite extends AbstractGem {
     private final NamespacedKey key;
 
     public GemShortite(SimpleStorage plugin, ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super("Shortite Crystal", category, item, recipeType, recipe, 1);
+        super("碳酸钠钙水晶", category, item, recipeType, recipe, 1);
         this.key = new NamespacedKey(SimpleStorage.inst(), "shortite_crystal");
         register();
         register(plugin);

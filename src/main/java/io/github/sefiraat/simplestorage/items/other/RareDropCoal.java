@@ -16,11 +16,11 @@ public final class RareDropCoal {
     public static final SlimefunItemStack STACK = new SlimefunItemStack(
             "MECHANIC_DROP_COAL",
             Material.COAL_ORE,
-            Theme.ITEM_RARE_DROP + "Rare Drop: Coal",
+            Theme.ITEM_RARE_DROP + "稀有掉落: 来自煤矿",
             "",
-            Theme.PASSIVE + "This item is a rare drop from",
-            Theme.PASSIVE + "coal ore. The block actually needs",
-            Theme.PASSIVE + "to break, no Silk Touch.",
+            Theme.PASSIVE + "该物品是开采煤矿时",
+            Theme.PASSIVE + "有几率爆出的稀有掉落物",
+            Theme.PASSIVE + "使用精准采集开采时不会掉落",
             "",
             Theme.LORE_TYPE_DROP
     );

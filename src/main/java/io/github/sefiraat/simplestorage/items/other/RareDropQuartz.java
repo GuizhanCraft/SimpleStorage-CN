@@ -16,11 +16,11 @@ public final class RareDropQuartz {
     public static final SlimefunItemStack STACK = new SlimefunItemStack(
             "MECHANIC_DROP_QUARTZ",
             Material.NETHER_QUARTZ_ORE,
-            Theme.ITEM_RARE_DROP + "Rare Drop: Quartz",
+            Theme.ITEM_RARE_DROP + "稀有掉落: 来自下界石英矿",
             "",
-            Theme.PASSIVE + "This item is a rare drop from",
-            Theme.PASSIVE + "quartz ore. The block actually needs",
-            Theme.PASSIVE + "to break, no Silk Touch.",
+            Theme.PASSIVE + "该物品是开采下界石英矿时",
+            Theme.PASSIVE + "有几率爆出的稀有掉落物",
+            Theme.PASSIVE + "使用精准采集开采时不会掉落",
             "",
             Theme.LORE_TYPE_DROP
     );
