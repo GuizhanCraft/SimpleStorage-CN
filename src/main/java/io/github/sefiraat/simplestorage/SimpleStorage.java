@@ -18,7 +18,7 @@ public class SimpleStorage extends AbstractAddon {
     private static SimpleStorage instance;
 
     public SimpleStorage() {
-        super("ybw0014", "SimpleStorage", "master", "auto-update");
+        super("ybw0014", "SimpleStorage-CN", "master", "auto-update");
     }
 
     public static SimpleStorage inst() {
